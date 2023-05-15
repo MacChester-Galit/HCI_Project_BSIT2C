@@ -1,0 +1,32 @@
+2023-04-30T14:45:00+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\wamp64\www\TeaTap\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:284
+Stack trace:
+#0 C:\wamp64\www\TeaTap\wp-includes\rest-api\class-wp-rest-server.php(1181): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\wamp64\www\TeaTap\wp-includes\rest-api\class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\wamp64\www\TeaTap\wp-includes\rest-api\class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\wamp64\www\TeaTap\wp-includes\rest-api.php(410): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\wamp64\www\TeaTap\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 C:\wamp64\www\TeaTap\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\TeaTap\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\TeaTap\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 C:\wamp64\www\TeaTap\wp-includes\class-wp.php(780): WP->parse_request('')
+#9 C:\wamp64\www\TeaTap\wp-includes\functions.php(1334): WP->main('')
+#10 C:\wamp64\www\TeaTap\wp-blog-header.php(16): wp()
+#11 C:\wamp64\www\TeaTap\index.php(17): require('C:\\wamp64\\www\\T...')
+#12 {main}
+  thrown in C:\wamp64\www\TeaTap\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 284
+
+2023-04-30T16:44:01+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int % string in C:\wamp64\www\TeaTap\wp-content\plugins\woolentor-addons\includes\addons\product_tabs.php:1679
+Stack trace:
+#0 C:\wamp64\www\TeaTap\wp-content\plugins\elementor\includes\base\controls-stack.php(2268): Elementor\Woolentor_Product_Tabs_Widget->render()
+#1 C:\wamp64\www\TeaTap\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\wamp64\www\TeaTap\wp-content\plugins\elementor\core\base\document.php(292): Elementor\Widget_Base->render_content()
+#3 C:\wamp64\www\TeaTap\wp-content\plugins\elementor\includes\managers\widgets.php(443): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\wamp64\www\TeaTap\wp-content\plugins\elementor\core\common\modules\ajax\module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\wamp64\www\TeaTap\wp-includes\class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 C:\wamp64\www\TeaTap\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\wamp64\www\TeaTap\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\wamp64\www\TeaTap\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in C:\wamp64\www\TeaTap\wp-content\plugins\woolentor-addons\includes\addons\product_tabs.php on line 1679
+

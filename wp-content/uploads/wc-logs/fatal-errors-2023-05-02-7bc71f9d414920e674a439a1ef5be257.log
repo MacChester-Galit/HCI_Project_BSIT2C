@@ -1,0 +1,15 @@
+2023-05-02T13:14:17+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int % string in C:\wamp64\www\TeaTap\wp-content\plugins\woolentor-addons\includes\addons\product_tabs.php:1679
+Stack trace:
+#0 C:\wamp64\www\TeaTap\wp-content\plugins\elementor\includes\base\controls-stack.php(2268): Elementor\Woolentor_Product_Tabs_Widget->render()
+#1 C:\wamp64\www\TeaTap\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\wamp64\www\TeaTap\wp-content\plugins\elementor\core\base\document.php(292): Elementor\Widget_Base->render_content()
+#3 C:\wamp64\www\TeaTap\wp-content\plugins\elementor\includes\managers\widgets.php(443): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\wamp64\www\TeaTap\wp-content\plugins\elementor\core\common\modules\ajax\module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\wamp64\www\TeaTap\wp-includes\class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 C:\wamp64\www\TeaTap\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\wamp64\www\TeaTap\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\wamp64\www\TeaTap\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in C:\wamp64\www\TeaTap\wp-content\plugins\woolentor-addons\includes\addons\product_tabs.php on line 1679
+

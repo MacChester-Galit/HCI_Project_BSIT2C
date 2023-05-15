@@ -1,0 +1,108 @@
+[2023-04-30 08:52:28] ERROR [Database:289] Can&#039;t DROP &#039;glsr_assigned_posts_post_id_foreign&#039;; check that column/key exists
+[2023-04-30 08:52:28] DEBUG [C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\helpers.php:247] Array (
+    [0] =&gt; Array (
+        [file] =&gt; C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\helpers.php
+        [line] =&gt; 247
+        [function] =&gt; trace
+        [class] =&gt; GeminiLabs\SiteReviews\Modules\Backtrace
+        [type] =&gt; -&gt;
+    )
+    [1] =&gt; Array (
+        [file] =&gt; C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\plugin\Database.php
+        [line] =&gt; 290
+        [function] =&gt; glsr_trace
+    )
+    [2] =&gt; Array (
+        [file] =&gt; C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\plugin\Database.php
+        [line] =&gt; 94
+        [function] =&gt; logErrors
+        [class] =&gt; GeminiLabs\SiteReviews\Database
+        [type] =&gt; -&gt;
+    )
+    [3] =&gt; Array (
+        [file] =&gt; C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\plugin\Database\Tables\AbstractTable.php
+        [line] =&gt; 96
+        [function] =&gt; dbQuery
+        [class] =&gt; GeminiLabs\SiteReviews\Database
+        [type] =&gt; -&gt;
+    )
+    [4] =&gt; Array (
+        [file] =&gt; C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\plugin\Database\Tables\TableAssignedPosts.php
+        [line] =&gt; 23
+        [function] =&gt; dropForeignConstraint
+        [class] =&gt; GeminiLabs\SiteReviews\Database\Tables\AbstractTable
+        [type] =&gt; -&gt;
+    )
+)
+[2023-04-30 08:52:28] ERROR [Database:289] Can&#039;t DROP &#039;glsr_assigned_terms_term_id_foreign&#039;; check that column/key exists
+[2023-04-30 08:52:28] DEBUG [C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\helpers.php:247] Array (
+    [0] =&gt; Array (
+        [file] =&gt; C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\helpers.php
+        [line] =&gt; 247
+        [function] =&gt; trace
+        [class] =&gt; GeminiLabs\SiteReviews\Modules\Backtrace
+        [type] =&gt; -&gt;
+    )
+    [1] =&gt; Array (
+        [file] =&gt; C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\plugin\Database.php
+        [line] =&gt; 290
+        [function] =&gt; glsr_trace
+    )
+    [2] =&gt; Array (
+        [file] =&gt; C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\plugin\Database.php
+        [line] =&gt; 94
+        [function] =&gt; logErrors
+        [class] =&gt; GeminiLabs\SiteReviews\Database
+        [type] =&gt; -&gt;
+    )
+    [3] =&gt; Array (
+        [file] =&gt; C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\plugin\Database\Tables\AbstractTable.php
+        [line] =&gt; 96
+        [function] =&gt; dbQuery
+        [class] =&gt; GeminiLabs\SiteReviews\Database
+        [type] =&gt; -&gt;
+    )
+    [4] =&gt; Array (
+        [file] =&gt; C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\plugin\Database\Tables\TableAssignedTerms.php
+        [line] =&gt; 23
+        [function] =&gt; dropForeignConstraint
+        [class] =&gt; GeminiLabs\SiteReviews\Database\Tables\AbstractTable
+        [type] =&gt; -&gt;
+    )
+)
+[2023-04-30 08:52:28] ERROR [Database:289] Can&#039;t DROP &#039;glsr_assigned_users_user_id_foreign&#039;; check that column/key exists
+[2023-04-30 08:52:28] DEBUG [C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\helpers.php:247] Array (
+    [0] =&gt; Array (
+        [file] =&gt; C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\helpers.php
+        [line] =&gt; 247
+        [function] =&gt; trace
+        [class] =&gt; GeminiLabs\SiteReviews\Modules\Backtrace
+        [type] =&gt; -&gt;
+    )
+    [1] =&gt; Array (
+        [file] =&gt; C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\plugin\Database.php
+        [line] =&gt; 290
+        [function] =&gt; glsr_trace
+    )
+    [2] =&gt; Array (
+        [file] =&gt; C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\plugin\Database.php
+        [line] =&gt; 94
+        [function] =&gt; logErrors
+        [class] =&gt; GeminiLabs\SiteReviews\Database
+        [type] =&gt; -&gt;
+    )
+    [3] =&gt; Array (
+        [file] =&gt; C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\plugin\Database\Tables\AbstractTable.php
+        [line] =&gt; 96
+        [function] =&gt; dbQuery
+        [class] =&gt; GeminiLabs\SiteReviews\Database
+        [type] =&gt; -&gt;
+    )
+    [4] =&gt; Array (
+        [file] =&gt; C:\wamp64\www\TeaTap\wp-content\plugins\site-reviews\plugin\Database\Tables\TableAssignedUsers.php
+        [line] =&gt; 23
+        [function] =&gt; dropForeignConstraint
+        [class] =&gt; GeminiLabs\SiteReviews\Database\Tables\AbstractTable
+        [type] =&gt; -&gt;
+    )
+)
