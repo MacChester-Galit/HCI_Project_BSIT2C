@@ -1,2 +1,2 @@
-# HCI_Project_BSIT2C
+# HCI_Project_BSIT2C_TeaTap
 This repo will contain the wordpress files for our final project in HCI2
